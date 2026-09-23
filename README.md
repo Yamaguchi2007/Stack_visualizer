@@ -4,6 +4,10 @@ A terminal-based Stack Visualizer written in C using only the standard C library
 
 The project demonstrates stack operations and several stack algorithms through a simple terminal interface. It uses double buffering to render the interface without relying on external terminal UI libraries such as ncurses.
 
+#Platform: Linux / Unix-like systems
+#Language: C
+#Terminal APIs: POSIX (termios, unistd)
+
 ## Features
 
 - PUSH, POP, and PEEK operations
