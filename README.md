@@ -73,7 +73,7 @@ reverse
 
 ## Project Structure
 
-### `mvt2.c`
+### `main.c`
 The main program and application controller. It initializes the program, creates the stacks, handles the input loop, passes commands to algorithms, updates the visualizer, handles terminal raw mode, and performs cleanup.
 
 ### `stack.c`
@@ -123,7 +123,7 @@ input.c
     ↓
 parser.c
     ↓
-mvt2.c
+main.c
     ↓
 algos.c / stack.c
     ↓
@@ -177,7 +177,7 @@ This helps reduce terminal flickering.
 ## Compilation
 
 ```bash
-gcc -Wall -Wextra -std=c11 mvt2.c vis2_stack_elements.c input.c parser.c stack.c algos.c trace.c
+gcc -Wall -Wextra -std=c11 main.c vis2_stack_elements.c input.c parser.c stack.c algos.c trace.c
 ```
 
 This produces the default executable:
